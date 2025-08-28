@@ -15,8 +15,8 @@ const connectDB = async () => {
         });
 
         await mongoose.connect(`${process.env.MONGODB_URI}/imagify`, {
-            useNewUrlParser: true,
-            useUnifiedTopology: true
+            //useNewUrlParser: true,
+            //useUnifiedTopology: true
         });
 
         console.log("MongoDB Connection Attempted");
