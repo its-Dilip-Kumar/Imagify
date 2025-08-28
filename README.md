@@ -65,28 +65,4 @@ npm run dev
 - Frontend: `http://localhost:5173`
 - Backend API: `http://localhost:5000`
 
-> **Important Notes**: 
-> - Never commit your `.env` files to version control
-> - Make sure to replace the example values with your actual configuration
-> - The CLIPDROP_API key can be obtained from [ClipDrop API](https://clipdrop.co/apis)
-> - Keep your JWT_SECRET secure and use a strong random string
-
-<div align="center">
-
-### Development Scripts
-
-| Command | Description |
-|---------|-------------|
-| `npm run server` | Starts backend |
-| `npm run dev` | Starts frontend |
-
-### Environment Variables
-
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `PORT` | Server port | 5000 |
-| `MONGODB_URI` | MongoDB connection string | - |
-| `JWT_SECRET` | JWT secret key | - |
-
-
-
+>
